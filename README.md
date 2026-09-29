@@ -1,25 +1,14 @@
-<!--
-  This file belongs in a repo named exactly after your GitHub username.
-  divyaa985/divyaa985  ->  renders on your profile page.
-  Replace every divyaa985, Divya Mandalaywala and bracketed placeholder below.
--->
-
 # Divya Mandalaywala
 
-Bioinformatician working on evaluation of biological foundation models — whether pretrained cell, sequence and spatial representations actually transfer to the tasks people use them for.
+Bioinformatician working on the evaluation of biological foundation models — whether pretrained cell and sequence representations actually transfer to the tasks people use them for.
 
-Currently: benchmarking single-cell foundation model embeddings against simple baselines under leave-one-batch-out transfer, with negative controls.
+Right now I'm benchmarking single-cell foundation model embeddings against simple baselines under leave-one-batch-out transfer, with negative controls, to find out where the pretraining earns its cost and where it doesn't.
 
 ### Projects
 
-**[scfm-benchmark](https://github.com/divyaa985/scfm-benchmark)** — Do single-cell foundation model embeddings beat a PCA baseline on an unseen sequencing technology? Leak-free protocol, random-projection control, fold-level results published alongside summaries.
-
-<!-- Add projects here as you ship them. Two lines each, result first. Delete this comment. -->
+**[scfm-benchmark](https://github.com/divyaa985/scfm-benchmark)** — Do single-cell foundation model embeddings beat a PCA baseline on a sequencing technology the model has never seen? Leak-free preprocessing, a random-projection control, and fold-level results published alongside the summaries.
 
 ### Working with
 
-`Python` · `scanpy` / `anndata` · `scikit-learn` · `PyTorch` · `Hugging Face` · [add your wet-lab or pipeline tooling: nextflow, Snakemake, R/Bioconductor, Seurat]
+Python · scanpy · anndata · scikit-learn · matplotlib · PyTorch · Hugging Face
 
-### Elsewhere
-
-[your email] · [ORCID, Google Scholar, LinkedIn or personal site — delete the ones you don't have]
